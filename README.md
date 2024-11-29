@@ -169,4 +169,4 @@ sudo pacman -S ffmpeg
     python script.py video.m4s audio.m4s output.mkv -f mkv -v libvpx-vp9 -a libopus
 	```
 
-    注：在 Android 中，如果你没有获取 Root 权限，你可以把文件都放在 `/data/local/tmp/` 下
+    注：在 Android 中，如果你没有获取 Root 权限，你可以把文件都放在 `/data/user/0/com.termux/files/` 下
