@@ -68,15 +68,15 @@
 
 > 我们推荐你使用 Termux，安装 Termux 流程见 [此处](#termux)，以下为基于 Termux 的教程
 
-1. 执行
+执行
 
-   ```bash
-   pkg update
-   pkg upgrade
-   pkg install ffmpeg
-   ```
+```bash
+pkg update
+pkg upgrade
+pkg install ffmpeg
+```
 
-   等待下载安装完成
+等待下载安装完成
 
 #### Ubuntu/Debian
 
