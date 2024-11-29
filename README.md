@@ -168,3 +168,5 @@ sudo pacman -S ffmpeg
     # 使用VP9编码和Opus音频，输出为MKV格式
     python script.py video.m4s audio.m4s output.mkv -f mkv -v libvpx-vp9 -a libopus
 	```
+
+    注：在 Android 中，如果你没有获取 Root 权限，你可以把文件都放在 `/data/local/tmp/` 下
