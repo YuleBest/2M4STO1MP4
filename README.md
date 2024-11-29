@@ -169,4 +169,4 @@ sudo pacman -S ffmpeg
     python script.py video.m4s audio.m4s output.mkv -f mkv -v libvpx-vp9 -a libopus
 	```
 
-    <span id="termux">*注：在 Android 中，如果你获取了 Root 权限，那么你需要先执行 `su` 之后，执行 `export PATH=/data/user/0/com.termux/files/usr/bin:$PATH`；如果你没有获取 Root 权限，你可以把文件都放在 `/data/user/0/com.termux/files/` 下，然后执行 `cd ..` 和 `chmod +x ./*`，你就可以直接使用了</span>
+    <span id="注意">*注：在 Android 中，如果你获取了 Root 权限，那么你需要先执行 `su` 之后，执行 `export PATH=/data/user/0/com.termux/files/usr/bin:$PATH`；如果你没有获取 Root 权限，你可以把文件都放在 `/data/user/0/com.termux/files/` 下，然后执行 `cd ..` 和 `chmod +x ./*`，你就可以直接使用了</span>
