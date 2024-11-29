@@ -122,10 +122,10 @@ sudo pacman -S ffmpeg
 
 ## 使用
 
-1. 在终端执行
+1. 在终端执行*
 
     ```shell
-    python <文件所在目录>/2m4sto1mp4_<版本号>.py
+    sudo python <文件所在目录>/2m4sto1mp4_<版本号>.py
     ```
 
     然后根据提示依次输入*文件路径*、*输出文件格式*和*编码格式*即可。
@@ -169,4 +169,4 @@ sudo pacman -S ffmpeg
     python script.py video.m4s audio.m4s output.mkv -f mkv -v libvpx-vp9 -a libopus
 	```
 
-    注：在 Android 中，如果你没有获取 Root 权限，你可以把文件都放在 `/data/user/0/com.termux/files/` 下，然后执行 `cd ..` 和 `chmod +x ./*`，你就可以直接使用了
+    *注：在 Android 中，如果你获取了 Root 权限，那么你需要先执行 `su` 之后，执行 `export PATH=/data/user/0/com.termux/files/usr/bin:$PATH`；如果你没有获取 Root 权限，你可以把文件都放在 `/data/user/0/com.termux/files/` 下，然后执行 `cd ..` 和 `chmod +x ./*`，你就可以直接使用了
